@@ -4,6 +4,7 @@
  * Worst-case: O(n^2) - when most element are in the same bucket
  * Best-case: O(n + k) - when elements are uniformly distributed
  * Average-case: O(n + k + (n^2)/k) - when elements are uniformly distributed
+ *  - Might change based on sorting algorithm used for sorting buckets
  * Best-case space complexity: O(n) auxillary
  * Worst-case space complexity: O(n + k) auxillary
  */
